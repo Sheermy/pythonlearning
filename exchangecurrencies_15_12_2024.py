@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import messagebox
 import requests
 
-
 def pobierz_kursy(waluta_poczatkowa):
     waluta_poczatkowa = entry_waluta_poczatkowa.get().upper()
     url = f"https://api.exchangerate-api.com/v4/latest/{waluta_poczatkowa}"
@@ -46,10 +45,8 @@ tk.Label(okno, bg="#0E0D0D", fg="#ffffff", text="Waluta docelowa (np. EUR):").gr
 entry_waluta_docelowa = tk.Entry(okno, bg="#191919", fg="#ffffff")
 entry_waluta_docelowa.grid(row=2, column=1, padx=10, pady=5)
 
-
 button_przelicz = tk.Button(okno, bg="#191919", fg="#ffffff", text="Przelicz", command=przelicz_walute)
 button_przelicz.grid(row=3, column=0, columnspan=2, pady=10)
-
 
 label_wynik = tk.Label(okno, bg="#0E0D0D", fg="#ffffff", text="", font=("", 14))
 label_wynik.grid(row=4, column=0, columnspan=2, pady=10)
