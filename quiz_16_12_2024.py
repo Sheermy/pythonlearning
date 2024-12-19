@@ -1,4 +1,3 @@
-import os
 
 pytania = [
         {"pytanie": "Stolicą Francji jest?", "poprawna": "Paryż"},

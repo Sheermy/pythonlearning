@@ -1,2 +1,4 @@
 U퓓tkownik: aaa, Wynik: 1/3
 U퓓tkownik: bbb, Wynik: 0/3
+U퓓tkownik: cwl, Wynik: 0/3
+U퓓tkownik: cwl, Wynik: 0/3
