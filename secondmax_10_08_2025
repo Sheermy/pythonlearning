@@ -1,0 +1,6 @@
+list_a = [2, 6, 254, 5, 123, 2, 24, 54, 669, 34, 21, 330]
+
+list_a.sort()
+
+print(list_a)
+print(list_a[-2])
