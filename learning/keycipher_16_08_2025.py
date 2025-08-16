@@ -8,12 +8,10 @@ key = char_list.copy()
 
 random.shuffle(key)
 
-#SZYFROWANIE
 input_text = input("Text: ")
 cypher_text = ""
 
 input_text_list = list(input_text)
-
 
 for c in input_text_list:
     index = char_list.index(c)
@@ -21,7 +19,6 @@ for c in input_text_list:
 
 print(cypher_text)
 
-#DESZYFROWANIE
 input_text = input("Text: ")
 decypher_text = ""
 
